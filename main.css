@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-right: 20px;
+	font-family: 'Open Sans', cursive;
+	background-color: white;
+	cursor: inherit;
+}
+
+Header {
+	background-color: rgb(140, 255, 132);
+	padding: 7.5px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	vertical-align: middle;
+}
+Footer {
+	background-color: rgb(183, 183, 183);
+	height: 100px;
+	text-align: center;
+	bottom: 0px;
+}
+Section {
+	background-color: rgb(232, 255, 233);
+	padding: 10px;
+	min-height: 750px;
+}
+
+.Logo {
+    color: black;
+    font-size: 32.5px;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	font-size: 17.5px;
+	transition: 0.125s;
+	text-align: right;
+}
+a:hover {
+	color: rgb(100,100,100);
+	font-size: 17.5px;
+	transition: 0.125s;
+}
+
+.Pagehead {
+    color: rgb(0,0,0);
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.Subhead {
+    color: rgb(0,0,0);
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.Subtext {
+    color: rgb(0,0,0);
+    font-size: 15px;
+    text-align: justify;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.Link {
+    text-decoration: none;
+    color: black;
+    display: inline;
+	font-size: 15px;
+	cursor: pointer;
+}
+.Link:hover {
+    color: lightgrey;
+	font-size: 15px;
+}
+
+div {
+	border-top: 2px solid green;
+}
+
+.Image {
+    width: 350px;
+    display: inline-block;
+    padding: 4px;
+    background-color: black;
+    border-radius: 2.75px;
+}
