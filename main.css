@@ -8,7 +8,6 @@ body {
     margin-right: 20px;
 	font-family: 'Open Sans', cursive;
 	background-color: white;
-	cursor: inherit;
 }
 
 Header {
@@ -63,7 +62,7 @@ a:hover {
     color: rgb(0,0,0);
     font-size: 20px;
     margin-left: 15px;
-    margin-bottom: 5px;
+    margin-bottom: -10px;
     margin-top: 10px;
 }
 .Subtext {
@@ -72,7 +71,7 @@ a:hover {
     text-align: justify;
     width: auto;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 30px;
 }
 .Link {
@@ -97,4 +96,14 @@ div {
     padding: 4px;
     background-color: black;
     border-radius: 2.75px;
+}
+
+.Subbold {
+    color: rgb(0,0,0);
+    font-size: 18px;
+    text-align: justify;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -20px;
+    margin-left: 20px;
 }
