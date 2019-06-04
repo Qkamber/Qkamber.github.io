@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    background-color: white;
+    font-family: Open Sans, Calibri;
+}
+
+p {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    max-width: 900px;
+}
+
+.nav {
+    background-color: orange;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -15px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.header {
+    font-size: 22px;
+    font-family: Open Sans, Calibri;
+    padding: 7.5px;
+    background-color: orange;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.onpage {
+    font-family: Open Sans, Calibri; 
+    font-size: 20px; 
+    display: inline-block; 
+    color: grey;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: Open Sans, Calibri;
+    display: inline-block;
+    margin-right: 7.5px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-family: Open Sans, Calibri;
+    font-size: 22.5px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Open Sans, Calibri;
+    font-size: 20px;
+    display: inline-block;
+    margin-left:5px;
+    margin-right: 5px;
+}
